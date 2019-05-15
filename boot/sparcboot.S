@@ -15,5 +15,5 @@ _start:
         nop                          ! waste the delay slot for simplicity
 
 2:
-        call kmain                   ! loop forever
+        call main                    ! loop forever 
         nop
