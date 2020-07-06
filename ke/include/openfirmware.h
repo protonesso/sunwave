@@ -3,4 +3,7 @@
 #ifndef OPENFIRMWARE_H
 #define OPENFIRMWARE_H
 
+int prom_cmd(char *service, unsigned fmt, ...);
+void prom_halt(void);
+
 #endif
