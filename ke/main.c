@@ -3,6 +3,5 @@
 #include <main.h>
 
 void kmain(void) {
-//	terminal_initialize();
 	for (;;) {}
 }
