@@ -14,6 +14,7 @@
 .text
 .globl _start
 
+/* inspired by OpenBSD */
 _start:
 	nop
 
@@ -33,10 +34,6 @@ _start:
 1:
 	sub	%sp, %g1, %g1
 	save	%g1, %g0, %sp
-
-2:
-	call 2b
-	nop
 
 	/*
 	 * Set the psr into a known state:
